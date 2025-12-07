@@ -50,11 +50,48 @@
       </ul>
     </section>
 
-
     <section class="contact">
       <h2>Contact</h2>
       <button>Contact Me</button>
     </section>
+
+    <section class="calculator">
+      <h2>Simple Calculator</h2>
+
+      <input type="number" id="num1" placeholder="Enter first number">
+      <input type="number" id="num2" placeholder="Enter second number">
+
+      <br><br>
+
+      <button onclick="add()">Add</button>
+      <button onclick="subtract()">Subtract</button>
+      <button onclick="multiply()">Multiply</button>
+      <button onclick="divide()">Divide</button>
+
+      <h3 id="result"></h3>
+    </section>
+
+    <section class="even-odd">
+  <h2>Even / Odd Checker</h2>
+
+  <input type="number" id="checkNumber" placeholder="Enter a number">
+  <button onclick="checkEvenOdd()">Check</button>
+
+  <h3 id="evenOddResult"></h3>
+</section>
+
+<section class="form-validation">
+  <h2>Mini Form Validation</h2>
+
+  <input type="text" id="name" placeholder="Enter your name"><br><br>
+  <input type="email" id="email" placeholder="Enter your email"><br><br>
+
+  <button onclick="validateForm()">Submit</button>
+
+  <h3 id="formResult"></h3>
+</section>
+
+
 
   </div>
   <script src="script.js"></script>

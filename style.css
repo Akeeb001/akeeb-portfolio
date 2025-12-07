@@ -63,3 +63,12 @@ button:hover {
     padding: 20px;
   }
 }
+
+section input {
+  padding: 10px;
+  margin: 5px 0;
+  width: 80%;
+  max-width: 300px;
+  border-radius: 6px;
+  border: none;
+}
